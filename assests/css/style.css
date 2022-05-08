@@ -1,4 +1,4 @@
-/* Global setting */
+/* !Global setting */
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +7,7 @@
 
 :root {
     --primary-color: #ff3500;
+    --linkhover: #eb592d;
     --heading-color: #191d34;
     --footer-color: #7a7a7a;
     --footer-heading: #2e2e2e;
@@ -14,4 +15,58 @@
     --paragraph2: #66666f;
     --pet: #808080;
     --slidersub: #979797;
+}
+
+.container {
+    max-width: 1140px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* !End  Global */
+
+/* !Header */
+
+header {
+    background-color: #000;
+    padding: 1em;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.header-contact {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 1.1rem;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+
+.header-contact a,
+.header-icon a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+}
+
+.header-icon a:hover {
+    color: var(--linkhover);
 }
