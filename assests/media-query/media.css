@@ -8,6 +8,15 @@
     .header-top {
         flex-direction: column;
     }
+
+    .header-contact {
+        gap: 10px;
+    }
+
+    .header-icon {
+        margin-top: 20px;
+        justify-content: center;
+    }
 }
 
 @media screen (min-width: 426px) and (max-width: 768px) {}
