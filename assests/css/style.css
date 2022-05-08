@@ -1,0 +1,17 @@
+/* Global setting */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff3500;
+    --heading-color: #191d34;
+    --footer-color: #7a7a7a;
+    --footer-heading: #2e2e2e;
+    --paragraph1: #909092;
+    --paragraph2: #66666f;
+    --pet: #808080;
+    --slidersub: #979797;
+}
