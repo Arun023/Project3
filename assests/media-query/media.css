@@ -4,6 +4,10 @@
     .container {
         max-width: 425px;
     }
+
+    .header-top {
+        flex-direction: column;
+    }
 }
 
 @media screen (min-width: 426px) and (max-width: 768px) {}
