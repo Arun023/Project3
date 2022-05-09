@@ -20,6 +20,7 @@
         flex-basis: 2rem;
         font-size: 1.2em;
         margin-top: 20px;
+        justify-content: space-evenly;
     }
 }
 
