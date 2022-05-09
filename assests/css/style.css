@@ -103,25 +103,39 @@ body {
     color: #000;
 }
 
+.header-down ul li a:hover {
+    color: var(--linkhover);
+}
+
+
+.header-down ul li {
+    display: flex;
+    gap: 5px;
+    height: 60px;
+    align-items: center;
+}
 
 .header-down ul li ul {
-    display: none;
     visibility: hidden;
+    opacity: 0;
+    transform: translateY(-3em);
     background-color: #fff;
     padding: 1em;
     gap: 1em;
     flex-direction: column;
-    transition: 0.3s ease visibility;
+    transition: all 0.3s ease 0s, visibility 0s linear 0.3s;
 }
 
 .header-down ul ul {
     position: absolute;
-    top: 60px;
+    top: 89px;
 }
 
 nav ul li:hover>ul {
-    display: block;
     visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0s, 0s;
 }
 
 nav ul ul li {
