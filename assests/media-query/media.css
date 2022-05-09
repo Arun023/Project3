@@ -1,6 +1,6 @@
 /* For small screen */
 
-@media (max-width: 550px) {
+@media (max-width: 559px) {
     .container {
         max-width: 425px;
     }
@@ -11,14 +11,14 @@
 
     .header-contact {
         justify-content: space-around;
-        font-size: 1em;
-        gap: 15px;
+        font-size: 14px;
+        gap: 10px;
     }
 
     .header-icon {
         font-size: 1.2em;
         margin-top: 20px;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }
 
