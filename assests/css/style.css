@@ -45,10 +45,11 @@ header {
 }
 
 .header-contact {
+    font-family: "Poppins", sans-serif;
     list-style: none;
     display: flex;
     /* gap: 50px; */
-    font-size: 1.1rem;
+    font-size: 1rem;
     flex-basis: 20rem;
     justify-content: space-between;
 }
@@ -57,17 +58,20 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-size: 1.3em;
-    color: #ffffff;
+    font-size: 1.2em;
     justify-content: space-between;
+    flex-basis: 15rem;
 }
-
 
 .header-contact a,
 .header-icon a {
     color: #ffffff;
     text-decoration: none;
     transition: color 250ms ease-in-out;
+}
+
+.header-icon a {
+    color: #fffffe99;
 }
 
 .header-icon a:hover {

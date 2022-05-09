@@ -1,7 +1,7 @@
 /* For small screen */
 
-@media screen and (max-width: 640px) {
-    .container {
+@media screen and (max-width: 480px) {
+    header .container {
         max-width: 320px;
     }
 
@@ -22,9 +22,43 @@
         font-size: 1.2em;
         margin-top: 24px;
         justify-content: space-between;
+        flex-basis: 0;
     }
 }
 
-@media (min-width: 425px) and (max-width: 500px) {}
+@media screen and (min-width: 481px) and (max-width: 750px) {
+    header .container {
+        max-width: 900px;
+        /* max-width: 900px; */
+    }
 
-@media screen and (min-width: 800px) and (max-width: 1020px) {}
+    .header-top {
+        justify-content: space-around;
+    }
+
+    .header-contact {
+        font-size: 15px;
+        justify-content: start;
+        gap: 20px;
+        flex-basis: 20rem;
+    }
+
+    .header-icon {
+        flex-basis: 10rem;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1024px) {
+    header .container {
+        max-width: 1020px;
+    }
+
+    .header-top {
+        padding: 0.5rem 1rem;
+        justify-content: space-between;
+    }
+
+    .header-icon {
+        flex-basis: 10rem;
+    }
+}
