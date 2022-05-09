@@ -59,7 +59,6 @@ header {
     gap: 30px;
     font-size: 1.3em;
     color: #ffffff;
-    flex-basis: 0rem;
     justify-content: space-between;
 }
 

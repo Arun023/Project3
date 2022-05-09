@@ -1,6 +1,6 @@
 /* For small screen */
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 640px) {
     .container {
         max-width: 320px;
     }
@@ -17,10 +17,11 @@
     }
 
     .header-icon {
-        flex-basis: 2rem;
+        margin: auto;
+        min-width: 10rem;
         font-size: 1.2em;
         margin-top: 20px;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 
