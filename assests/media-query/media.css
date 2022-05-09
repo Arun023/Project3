@@ -26,6 +26,8 @@
     }
 }
 
+/* ! Medium Screen */
+
 @media screen and (min-width: 481px) and (max-width: 750px) {
     header .container {
         max-width: 900px;
