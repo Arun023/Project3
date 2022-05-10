@@ -24,6 +24,10 @@
         justify-content: space-between;
         flex-basis: 0;
     }
+
+    nav {
+        display: none;
+    }
 }
 
 /* ! Medium Screen */
@@ -48,6 +52,12 @@
     .header-icon {
         flex-basis: 10rem;
     }
+
+    nav {
+        display: none;
+    }
+
+
 }
 
 @media screen and (min-width: 751px) and (max-width: 1024px) {
@@ -62,5 +72,9 @@
 
     .header-icon {
         flex-basis: 10rem;
+    }
+
+    .header-down {
+        padding: 0.5rem 1rem;
     }
 }
