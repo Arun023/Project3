@@ -28,6 +28,20 @@
     nav {
         display: none;
     }
+
+    .hero-content {
+        font-size: 16px;
+        margin-left: 2em;
+    }
+
+    .hero-content h3 {
+        font-size: 50px;
+        width: 20rem;
+    }
+
+    .dog {
+        display: none;
+    }
 }
 
 /* ! Medium Screen */
@@ -57,6 +71,19 @@
         display: none;
     }
 
+    .hero-content {
+        font-size: 16px;
+        margin-left: 10em;
+    }
+
+    .hero-content h3 {
+        font-size: 50px;
+        width: 20rem;
+    }
+
+    .dog {
+        display: none;
+    }
 
 }
 
@@ -76,5 +103,19 @@
 
     .header-down {
         padding: 0.5rem 1rem;
+    }
+
+    .hero-content {
+        font-size: 16px;
+        margin-left: 10em;
+    }
+
+    .hero-content h3 {
+        font-size: 50px;
+        width: 20rem;
+    }
+
+    .dog {
+        display: none;
     }
 }

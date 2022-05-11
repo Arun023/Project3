@@ -24,7 +24,7 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +46,6 @@ body {
 }
 
 .header-contact {
-    font-family: "Poppins", sans-serif;
     list-style: none;
     display: flex;
     /* gap: 50px; */
@@ -104,7 +103,6 @@ body {
 
 .header-down ul li a {
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #102955;
     transition: 0.3s ease-in-out color;
@@ -166,6 +164,8 @@ nav ul ul li {
 
 /* !End of Navigation */
 
+/* !Hero */
+
 .hero {
     position: relative;
 }
@@ -179,18 +179,63 @@ nav ul ul li {
     display: flex;
 }
 
-.hero-content {
-    flex-basis: 20rem;
-    transform: translateY(10rem);
-    -webkit-transform: translateY(10rem);
-    -moz-transform: translateY(10rem);
-    -ms-transform: translateY(10rem);
-}
-
 .dog {
+    transform: translateY(6rem);
     width: 500px;
 }
 
 .dog img {
-    width: 55%;
+    width: 150%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25rem;
+    transform: translateY(8rem);
+    -webkit-transform: translateY(8rem);
+    -moz-transform: translateY(8rem);
+    -ms-transform: translateY(8rem);
+    /* gap: 10px; */
+}
+
+.hero-content h3 {
+    font-size: 75px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.hero-content span {
+    font-weight: 800 !important;
+    color: #fff;
+}
+
+.hero-content p {
+    margin: 20px 0 35px 0;
+    width: 20rem;
+    color: #fff;
+    line-height: 1.9;
+    font-size: 16px;
+
+}
+
+.btn {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+    background: #fff;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 16px;
+    width: 12rem;
+    padding: 20px;
+    border-radius: 50px;
+    transition: 300ms color ease-in-out, 300ms background ease-in-out;
+    /* cursor: pointer; */
+}
+
+.btn:hover {
+    color: #fff;
+    background: var(--primary-color);
 }
