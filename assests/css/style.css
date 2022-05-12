@@ -79,9 +79,8 @@ body {
 }
 
 .header-down .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -241,4 +240,12 @@ nav ul ul li {
 .btn:hover {
     color: #fff;
     background: var(--primary-color);
+}
+
+/* ! End of Hero  */
+
+/* ! Services */
+
+.services {
+    border
 }
