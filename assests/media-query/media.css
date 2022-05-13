@@ -25,10 +25,18 @@
         flex-basis: 0;
     }
 
+    .header-down .container {
+        padding: 0.8rem;
+        justify-content: center;
+    }
+
     nav {
         display: none;
     }
 
+    /* ! Header end  */
+
+    /* ! Hero */
     .hero-content {
         font-size: 16px;
         margin-left: 2em;
@@ -36,11 +44,32 @@
 
     .hero-content h3 {
         font-size: 50px;
-        width: 20rem;
+        max-width: 20rem;
+    }
+
+    .hero-content p {
+        max-width: fit-content;
     }
 
     .dog {
         display: none;
+    }
+
+    /* ! End of hero */
+    /* ! Services */
+    .services {
+        margin-top: 20rem;
+    }
+
+    .services .service-upper h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .services .service-upper p {
+        max-width: 19rem;
+        font-size: 16px;
+        text-align: center;
     }
 }
 

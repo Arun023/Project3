@@ -29,6 +29,18 @@ body {
     font-style: normal;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--linkhover);
+}
+
 /* !End  Global */
 
 /* !Header */
@@ -52,6 +64,8 @@ body {
     font-size: 1rem;
     flex-basis: 20rem;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .header-icon {
@@ -75,7 +89,7 @@ body {
 }
 
 .header-icon a:hover {
-    color: var(--linkhover);
+    color: var(--linkhover) !important;
 }
 
 .header-down .container {
@@ -98,6 +112,8 @@ body {
     display: flex;
     justify-content: flex-end;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .header-down ul li a {
@@ -240,6 +256,7 @@ nav ul ul li {
 .btn:hover {
     color: #fff;
     background: var(--primary-color);
+    text-decoration: none;
 }
 
 /* ! End of Hero  */
@@ -247,5 +264,38 @@ nav ul ul li {
 /* ! Services */
 
 .services {
-    border
+    margin-top: 15rem;
+    height: 500px;
+}
+
+.services .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .service-upper h2 {
+    font-size: 48px;
+    color: var(--heading-color);
+    letter-spacing: 0.5px;
+}
+
+.services .service-upper p {
+    font-size: 15px;
+    color: var(--paragraph1);
+    max-width: 40rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.service-down {
+    /* border: 1px solid; */
+    /* max-width: 1140; */
+    /* min-width: 320px; */
 }
