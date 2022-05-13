@@ -27,6 +27,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-style: normal;
+    margin-bottom: 50rem;
 }
 
 ::-webkit-scrollbar {
@@ -265,13 +266,13 @@ nav ul ul li {
 
 .services {
     margin-top: 15rem;
-    height: 500px;
 }
 
 .services .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 40px;
 }
 
 .service-upper {
@@ -295,7 +296,45 @@ nav ul ul li {
 }
 
 .service-down {
-    /* border: 1px solid; */
-    /* max-width: 1140; */
-    /* min-width: 320px; */
+    /* margin-bottom: 50rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.box {
+    border: 1px solid #eb592d44;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 25px 65px 25px;
+    gap: 30px;
+    flex-basis: 1;
+}
+
+.box p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    color: var(--paragraph1);
+    line-height: 2;
+}
+
+.box h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.box-back {
+    background-image: url("../images/service.png");
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

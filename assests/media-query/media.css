@@ -71,6 +71,12 @@
         font-size: 16px;
         text-align: center;
     }
+
+    .service-down {
+        gap: 30px;
+        padding: 2rem;
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ! Medium Screen */
@@ -112,6 +118,26 @@
 
     .dog {
         display: none;
+    }
+
+    .services {
+        margin-top: 25rem;
+    }
+
+    .service-down {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 1 20rem;
+        padding: 10px;
+        row-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .box {
+        flex: 0 1 20rem;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
 }
