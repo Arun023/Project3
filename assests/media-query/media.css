@@ -78,8 +78,28 @@
 
     .service-down {
         gap: 30px;
-        padding: 2rem;
+        padding: 1rem;
         grid-template-columns: 1fr;
+    }
+
+    /* !End of service */
+
+    /* ! Cat */
+
+    .cat .container {
+        max-width: 480px;
+        flex-direction: column;
+        gap: 0;
+        padding: 20px;
+    }
+
+    .cat-conta {
+        max-width: 20rem;
+    }
+
+    .cat-heading h2,
+    h3 {
+        font-size: 1.6rem;
     }
 }
 
