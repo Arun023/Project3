@@ -1,4 +1,5 @@
 /* For small screen */
+@import url(../css/style.css);
 
 @media screen and (max-width: 480px) {
     header .container {
@@ -86,6 +87,10 @@
 
     /* ! Cat */
 
+    .cat {
+        transform: translateY(2rem);
+    }
+
     .cat .container {
         max-width: 480px;
         flex-direction: column;
@@ -97,9 +102,55 @@
         max-width: 20rem;
     }
 
+    .cat-heading {
+        /* gap: 40px; */
+        margin-bottom: 20px;
+    }
+
+    .cat-content p {
+        margin-bottom: 20px;
+    }
+
     .cat-heading h2,
-    h3 {
+    .cat-heading h3 {
         font-size: 1.6rem;
+    }
+
+    /* ! End of Cat area */
+    /* ! Contact */
+
+    .contact {
+        margin-top: 4rem;
+    }
+
+    .contact .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .contact-left h3 {
+        font-size: 1.8rem;
+        width: 90vw;
+    }
+
+    .contact-left p {
+        font-size: 15px;
+        line-height: 2;
+        color: #7a7a7a;
+        width: 90vw;
+    }
+
+    .contact-left .btn {
+        line-height: 25px;
+    }
+
+    .contact-right {
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    .pet-box {
+        width: 90vw;
     }
 }
 
@@ -170,13 +221,48 @@
         row-gap: 20px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+        flex-basis: 50%;
     }
 
     .box {
         flex: 0 1 20rem;
         justify-content: center;
         flex-wrap: wrap;
+        margin-bottom: 20px;
     }
+
+    /* ! End of Services */
+    /* ! Cat */
+
+
+    .cat .container {
+        gap: 0;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .cat-conta {
+        max-width: 20rem;
+    }
+
+    .cat-content {
+        padding-left: 10px;
+    }
+
+    .cat-heading {
+        /* gap: 40px; */
+        margin-bottom: 20px;
+    }
+
+    .cat-content p {
+        margin-bottom: 20px;
+    }
+
+    .cat-heading h2,
+    .cat-heading h3 {
+        font-size: 2rem;
+    }
+
 
 }
 
@@ -223,6 +309,15 @@
     .services {
         margin-right: 20px;
         margin-left: 20px;
+    }
+
+    .cat .container {
+        padding-right: 20px;
+    }
+
+    .cat .cat-heading h2,
+    h3 {
+        font-size: 2.7rem;
     }
 
 }

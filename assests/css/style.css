@@ -31,15 +31,11 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
     background: #dddddddd;
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--linkhover);
 }
 
 ::selection {
@@ -257,8 +253,8 @@ nav .ulsecond li {
     border: 1px solid transparent;
     font-weight: 500;
     font-size: 16px;
-    width: 12rem;
-    padding: 20px;
+    width: 13rem;
+    padding: 18px 20px;
     border-radius: 50px;
     transition: 300ms color ease-in-out, 300ms background ease-in-out;
     /* cursor: pointer; */
@@ -327,7 +323,6 @@ nav .ulsecond li {
     flex-direction: column;
     padding: 70px 25px 65px 25px;
     gap: 30px;
-    flex-basis: 1;
     transition: 0.3s ease-in-out;
     overflow: hidden;
 }
@@ -377,7 +372,7 @@ nav .ulsecond li {
 }
 
 .cat-conta {
-    width: 80rem;
+    max-width: 80rem;
 }
 
 .cat-conta img {
@@ -395,6 +390,7 @@ nav .ulsecond li {
     cursor: pointer;
     font-weight: 600;
     font-size: 18px;
+    padding: 18px 20px;
 }
 
 .cat-content {
@@ -409,11 +405,87 @@ nav .ulsecond li {
 }
 
 .cat-heading h2,
-h3 {
+.cat-heading h3 {
     font-size: 54px;
 }
 
 .cat-content p {
     color: var(--paragraph2);
     line-height: 2;
+}
+
+/* !End of Cat area */
+
+/* ! Contact area */
+
+.contact {
+    margin-top: 20rem;
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-left .btn {
+    background: -webkit-linear-gradient(0deg, #f14437 0%, #ed5b0d 99%);
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-left h3 {
+    font-size: 3rem;
+    line-height: 1.3;
+    word-spacing: 1px;
+    width: 25rem;
+}
+
+.contact-left h3 span {
+    font-weight: 300;
+}
+
+.contact-left p {
+    line-height: 2;
+    color: var(--paragraph2);
+    width: 30rem;
+}
+
+.contact-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pet-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 16rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 16px 35px 0px rgb(0 0 2 / 8%);
+}
+
+.pet-box h2 {
+    font-size: 4rem;
+    color: #383737;
+}
+
+.pet-box p {
+    font-size: 1.2rem;
+    color: var(--paragraph1);
 }
