@@ -162,6 +162,66 @@
 
 /* ! Medium Screen */
 
+@media screen and (min-width:481px) and (max-width:685px) {
+    .cat .container {
+        /* max-width: 480px; */
+        flex-direction: column;
+        gap: 0;
+        padding: 20px;
+    }
+
+    .cat-conta {
+        max-width: 80vw !important;
+    }
+
+    .cat-heading {
+        margin-bottom: 20px;
+    }
+
+    .cat-content p {
+        margin-bottom: 20px;
+    }
+
+    .cat-heading h2,
+    .cat-heading h3 {
+        font-size: 1.6rem;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .contact .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .contact-left h3 {
+        font-size: 1.8rem;
+        width: 90vw;
+    }
+
+    .contact-left p {
+        font-size: 15px;
+        line-height: 2;
+        color: #7a7a7a;
+        width: 90vw;
+    }
+
+    .contact-left .btn {
+        line-height: 25px;
+    }
+
+    .contact-right {
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    .pet-box {
+        width: 30rem;
+        max-width: 30rem;
+    }
+}
+
 @media screen and (min-width: 481px) and (max-width: 850px) {
     header .container {
         max-width: 900px;
@@ -262,8 +322,33 @@
     .cat-heading h3 {
         font-size: 2rem;
     }
+}
+
+/*! End of cat Area  */
+
+/* ! Contact area */
 
 
+@media screen and (min-width: 481px) and (max-width: 992px) {
+
+    .contact .container {
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .contact-left h3 {
+        font-size: 2rem;
+        width: 90vw;
+    }
+
+    .contact .contact-left p {
+        width: 90vw !important;
+        max-width: 90vw !important;
+    }
+
+    .pet-box {
+        width: 50vw;
+    }
 }
 
 @media screen and (min-width: 851px) and (max-width: 1024px) {
@@ -315,9 +400,22 @@
         padding-right: 20px;
     }
 
-    .cat .cat-heading h2,
-    h3 {
-        font-size: 2.7rem;
+    .cat-heading h2,
+    .cat-heading h3 {
+        font-size: 2.2rem;
+    }
+
+    .contact .container {
+        padding: 0 30px;
+    }
+
+    .contact .container h3 {
+        font-size: 2rem;
+    }
+
+    .contact .contact-left p {
+        width: 30rem;
+        max-width: 25rem;
     }
 
 }
