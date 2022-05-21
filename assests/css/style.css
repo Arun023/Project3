@@ -491,3 +491,84 @@ nav .ulsecond li {
     font-size: 1.2rem;
     color: var(--paragraph1);
 }
+
+/* ! End of Pet box */
+
+/* ! Team */
+
+.team {
+    margin-top: 5rem;
+}
+
+.team .container {
+    display: grid;
+    grid-template-rows: 20rem 1fr;
+}
+
+
+.team .team-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    justify-content: center;
+}
+
+.team .team-upper h2 {
+    font-size: 48px;
+    color: var(--heading-color);
+    text-align: center;
+}
+
+.team .team-upper p {
+    font-size: 16px;
+    color: var(--paragraph1);
+    text-align: center;
+    max-width: 35rem;
+}
+
+.team-down {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-down .team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 11rem;
+    text-align: center;
+    height: 4.5rem;
+    padding: 10px 20px;
+    border-radius: 9px;
+    background-color: #fff;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 10%);
+    transform: translateY(-30px);
+    transition: 0.3s ease-in-out;
+}
+
+.team-member-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.team-member-role {
+    color: var(--paragraph2);
+    font-size: 14px;
+}
+
+.team-box:hover .team-member {
+    transform: translateY(-35px);
+    transition: 0.3s ease-in-out;
+}
+
+/* ! End of team */
+
+/* ! Banner branding */

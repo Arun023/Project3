@@ -1,5 +1,4 @@
 /* For small screen */
-@import url(../css/style.css);
 
 @media screen and (max-width: 480px) {
     header .container {
@@ -152,6 +151,41 @@
     .pet-box {
         width: 90vw;
     }
+
+    /* ! Team */
+
+    .team {
+        margin-top: 1rem;
+    }
+
+    .team .container {
+        max-width: 480px;
+    }
+
+    .team-down {
+        grid-template-columns: 1fr;
+        padding: 0 16px;
+    }
+
+    .team .team-upper h2 {
+        font-size: 27px;
+        line-height: 33px;
+        margin-bottom: 10px;
+    }
+
+    .team .team-upper p {
+        /* max-width: 20rem; */
+        font-size: 15px;
+        padding: 0 15px;
+    }
+
+    .team-member-img {
+        max-width: 40rem;
+    }
+
+    .team-member-img img {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:375px) and (max-width:480px) {
@@ -219,6 +253,40 @@
     .pet-box {
         width: 30rem;
         max-width: 30rem;
+    }
+
+    .team {
+        margin-top: 0;
+    }
+
+    .team .container {
+        max-width: 600px;
+    }
+
+    .team-down {
+        grid-template-columns: 1fr;
+    }
+
+    .team .team-upper h2 {
+        font-size: 32px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+
+    .team .team-upper p {
+        /* max-width: 20rem; */
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    .team-member-img {
+        width: 40rem;
+        max-width: 30rem;
+        padding: 0 20px;
+    }
+
+    .team-member-img img {
+        width: 100%;
     }
 }
 
